@@ -1,0 +1,455 @@
+
+.custombtn{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
+    border-radius: 19px !important;
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 19px !important;
+    line-height: 22px !important;
+    color: #3F19F9 !important;
+    padding: 10px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    text-transform: none !important;
+    margin: 0;
+    z-index: 4;
+}
+
+.custombtn :hover{
+    background-color: #3F19F9 !important;
+    color: #FFFFFF !important;
+}
+
+.custombtnindex{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
+    border-radius: 26.5px !important;
+    font-family: Open Sans !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 26px !important;
+    line-height: 22px !important;
+    color: #3F19F9 !important;
+    padding: 15px !important;
+    padding-left: 25px !important;
+    padding-right: 40px !important;
+    text-transform: none !important;
+}
+
+.custombtnindex :hover{
+    background-color: #3F19F9 !important;
+    color: #FFFFFF !important;
+}
+
+.BannerTitle {
+    font-family: 'Open Sans', 'sans serif' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 82px !important;
+    line-height: 88px !important;
+    color: #FFFFFF !important;
+}
+
+.first{
+    position: absolute;
+    left: 30%;
+    top: -40px;
+    z-index: 1 !important;
+    width: 100%;
+}
+.second{
+    position: absolute !important;
+    left: 27%;
+    top: -46px;
+    z-index: 2 !important;
+    width: 100%;
+}
+.third{
+    position: absolute !important;
+    left: 1.5%;
+    top: -180px;
+    z-index: 3 !important;
+    width: 125%;
+}
+
+.triangulo-1 {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    
+}
+.triangulo-2 {
+    position: absolute;
+    z-index: 2;
+    top: 98.5%;
+    left: 100%;
+}
+.triangulo-3 {
+    position: absolute;
+    z-index: 3;
+    top: 95.5%;
+    left: 100%;
+}
+
+
+
+
+
+
+.BannerTitle2{
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 62px !important;
+    line-height: 68px !important;
+    color: #3F19F9;
+}
+
+.parrafo1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 107.68%;
+    color: #868686;
+    width: 345px;
+}
+
+.gratis{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 63.28px;
+    color: #41B8F9;
+}
+
+.subwrite {
+    position: absolute;
+    background-color: #3F19F9; 
+    width:18.5%;
+    height: 1px;
+    left: 3%;
+    top: 12%;
+    
+}
+
+.btnlargo{
+    position: absolute;
+    top: 52.5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27.4157px;
+    color: #1E0E6F;
+    background-color: none;
+    z-index: 2;
+    
+}
+
+.borderbtn{
+    position: absolute;
+    left: -58%;
+    top: 120px;
+    z-index: 1;
+}
+
+.card1{
+    position: absolute;
+    border-color: #868686;
+    background-color: #41B8F9;
+    top: -200px;
+    left: 35%;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
+    z-index: 3;
+}
+
+.card2{
+    position: absolute;
+    border-color: #868686;
+    background-color: #41B8F9;
+    top: -220px;
+    left: 38%;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
+    z-index: 2;
+}
+
+.card3{
+    position: absolute;
+    border-color: #868686;
+    background-color: #41B8F9;
+    top: -240px;
+    left: 42%;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
+    z-index: 1;
+}
+
+.cardbtn{
+    background: #32FFD2;
+    color: rgb(63, 63, 63);
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 13.4006px 6.2536px rgba(50, 255, 210, 0.25);
+    border-radius: 38.415px;
+}
+
+.izq-1{
+    position: relative;
+    top: -500px;
+    left: -55%;
+    z-index: 2;
+}
+
+.izq-2{
+    position: relative;
+    top: -500px;
+    left: -60%;
+    z-index: 1;
+}
+
+.der-1{
+    position: relative;
+    left: 136%;
+    top: 30px;
+    z-index: 1;
+    
+}
+
+.der-2{
+    position: relative;
+    left: 131%;
+    top: -350px;
+    z-index: 1
+    
+}
+
+.BannerTitle3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px !important;
+    color: #ffffff;
+}
+
+/*view 3 esta estileado en index*/
+
+/*view 4*/
+.cardimg{
+    position: relative;
+    width: 10% !important;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+/*RESPONSIVE DE 1ER VIEW*/
+@media (max-width: 600px) {
+    .custombtn {
+        font-size: 12px !important;
+        padding: 8px !important;
+        text-transform: none !important;
+        margin: 0;
+        margin-top: -20px !important;
+    }
+
+    .customcople1 {
+        position: relative;
+        width: 180px;
+        left: 0px;
+        margin-bottom: 10px !important;
+    }
+
+    .customcople2 {
+        position: relative;
+        width: 120px;
+        left: 5px;
+    }
+
+    .customcople3 {
+        position: relative;
+        width: 220px;
+        left: 0px;
+        margin-top: 10px !important;
+    }
+
+    /*mac*/
+    .third{
+        position: absolute;
+        width: 90%;
+        margin-top: 40px;
+        left: 12%;
+    }
+
+    /*blue*/
+    .second{
+        position: absolute;
+        width: 70%;
+        margin-top: -50px;
+        left: 130px;
+    }
+
+    /*white*/
+    .first{
+        position: absolute;
+        width: 70%;
+        margin-top: -40px;
+        left: 130px;
+    }
+
+    .BannerTitle  {
+        font-family: 'Open Sans' !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 42px !important;
+        line-height: 88px !important;
+        color: #FFFFFF !important;
+        line-height : 40px !important;
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .custombtnindex{
+        position: absolute;
+        background: #FFFFFF !important;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
+        border-radius: 26.5px !important;
+        font-family: 'Open Sans' !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 14px !important;
+        color: #3F19F9 !important;
+        padding: 5px !important;
+        padding-left: 5px !important;
+        padding-right: 23px !important;
+        text-transform: none !important;
+        margin-top: 120px;
+    }
+}
+
+
+
+/*RESPONSIVE DE 2DO VIEW*/
+@media (max-width: 600px) {
+    .BannerTitle2  {
+        font-family: 'Open Sans' !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 42px !important;
+        line-height: 88px !important;
+        color: #3F19F9;
+        line-height : 55px !important;
+        text-align: center;
+        margin-top: -80px;
+    }
+
+    .subwrite{
+        top: 20px;
+        left: 40%;
+    }
+    
+    .parrafo1{
+        text-align: center;
+        width: auto;
+    }
+
+    .gratis {
+        position: relative;
+        font-size: 40px;
+        left: 30%;
+        top: -25px;
+    }
+
+    .card1{
+        position: absolute;
+        width: 40%;
+        height: 60%;
+        top: -160%;
+        left: 110px;
+    }
+
+    .card2{
+        position: absolute;
+        width: 40%;
+        height: 60%;
+        top: -162%;
+        left: 120px;
+    }
+
+    .card3{
+        position: absolute;
+        width: 40%;
+        height: 60%;
+        top: -164%;
+        left: 130px;
+    }
+
+    .cardbtn{
+        position: relative;
+        font-size: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        top: 20px;
+    }
+
+    .btnlargo{
+        font-size: 18px;
+        top: 57.5%;
+    }
+
+    .borderbtn{
+        position: absolute;
+        top: 230px;
+        left: -500px;
+        
+    }
+
+    
+}
+
+
+/*RESPONSIVE DE 3r VIEW*/
+@media (max-width: 600px) {
+    .viewstyle{
+        border-radius: 0px 118px !important;
+    }
+
+    .BannerTitle3{
+        position: relative;
+        top: -70px;
+        font-size: 35px !important;
+        left: 20%;
+    }
+
+    .subview3{
+        position: relative;
+        top: -80px;
+        font-size: 12px !important;
+        left: 13%;
+    }
+
+    .listview3{
+        position: relative;
+        top: -120px;
+        font-size: 20px !important;
+        left: 60px;
+    }
+
+    .custombtnindex{
+        position: relative;
+        top: -150px;
+        left: 13%;
+    }
+
+    .imgtech{
+        position: relative;
+        width: 5% !important;
+        left: -30%;
+        top: -200px;
+    }
+    
+}
