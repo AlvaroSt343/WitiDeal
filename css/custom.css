@@ -227,6 +227,12 @@
     
 }
 
+
+
+
+
+
+
 .BannerTitle3{
     font-family: 'Open Sans';
     font-style: normal;
@@ -242,6 +248,38 @@
     position: relative;
     width: 10% !important;
 }
+
+
+
+/*view 5*/
+
+.BannerTitle5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px !important;
+    color: #ffffff;
+}
+
+.brandsstyle{
+    margin-top: 5%;
+}
+
+.bannerbajo{
+    background: linear-gradient(180deg, #3F19F9 0%, #2C0CC5 100%);
+
+}
+
+.textbanner{
+    color: white;
+    font-size: 25px;
+    z-index: 1;
+}
+
+
+
+
+
 
 
 /*------------------------------------------------------------------------*/
