@@ -262,18 +262,23 @@
 }
 
 .brandsstyle{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .bannerbajo{
+    margin-top: 120px;
+    margin-bottom: 0%;
     background: linear-gradient(180deg, #3F19F9 0%, #2C0CC5 100%);
 
 }
 
 .textbanner{
+    position: relative;
+    font-family: 'Open Sans';
+    font-size: 58px;
     color: white;
-    font-size: 25px;
-    z-index: 1;
+    font-weight: 600;
+    top: -210px;
 }
 
 
