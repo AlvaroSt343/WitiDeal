@@ -1,3 +1,8 @@
+html, body{
+    overflow-x: hidden;
+}
+
+
 
 /*VISTA 1 --------------------------------------*/
 .custombtn{
@@ -40,12 +45,12 @@
 }
 
 .BannerTitle {
-    font-family: 'Open Sans', 'sans serif' !important;
-    font-style: normal !important;
-    font-weight: 800 !important;
-    font-size: 82px !important;
-    line-height: 88px !important;
-    color: #FFFFFF !important;
+    font-family: 'Open Sans', 'sans serif';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 88px;
+    color: #FFFFFF;
 }
 
 .first{
