@@ -617,6 +617,16 @@ body .no-padding{
     }
 }
 
+@media (max-width: 800px){
+    .custombtnindex{
+        position: relative;
+        font-size: 14px !important;
+        top: 0 !important;
+        left: 0px !important;
+        z-index: 5;
+    }
+
+}
 
 
 /*RESPONSIVE DE 2DO VIEW*/
