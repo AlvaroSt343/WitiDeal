@@ -298,18 +298,21 @@
     background: linear-gradient(180deg, #41B8F9 26.72%, #32FFD2 126.06%) !important;
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
     border-radius: 19.6542px !important;
+    height: 670px;
 }
 
 .cardcustom2{
     background: linear-gradient(180deg, #41B8F9 0%, #3F19F9 126.06%);
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
     border-radius: 19.6542px;
+    height: 670px;
 }
 
 .cardcustom3{
     background: linear-gradient(180deg, #3F19F9 0%, #17056B 126.06%);
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
     border-radius: 19.6542px;
+    height: 670px;
 }
 
 
@@ -344,19 +347,46 @@
     padding: 0;
 }
 
-.imgcardback{
+.imgcardback1{
     position: relative;
-    top: -120px;
+    top: -430px;
     right: -25px;
     text-align: right;
     padding: 0;
     margin: 0;
-    z-index: 5;
+    z-index: 3;
+}
+
+.imgcardback2{
+    position: relative;
+    top: -545px;
+    right: -25px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+.imgcardback3{
+    position: relative;
+    top: -665px;
+    right: -25px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    z-index: 3;
 }
 
 
 
-
+/*seccion final slide*/
+.BannerTitle8{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px !important;
+    color: #41B8F9;
+}
 
 
 
