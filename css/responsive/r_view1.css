@@ -1,0 +1,243 @@
+/*Iphone 11 (6.1) viewport(414 x 896)*/
+@media (max-width: 450) {
+    .custombtn {
+        font-size: 12px !important;
+        padding: 8px !important;
+        text-transform: none !important;
+        margin: 0;
+        margin-top: -20px !important;
+    }
+
+    .customcople1 {
+        position: relative;
+        width: 180px;
+        left: 0px;
+        margin-bottom: 10px !important;
+    }
+
+    .customcople2 {
+        position: relative;
+        width: 120px;
+        left: 5px;
+        top: -11% !important;
+    }
+
+    .customcople3 {
+        position: relative;
+        width: 220px;
+        left: 0px;
+        margin-top: 10px !important;
+    }
+
+    .BannerTitle  {
+        position: absolute !important;
+        font-size: 1% !important;
+    }
+
+    .custombtnindex{
+        position: absolute;
+        top: 55% !important;
+        font-size: 80% !important;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 1% !important;
+        padding-right: 5% !important;
+    }
+
+
+    /*mac*/
+    .third{
+        position: relative;
+        width: 100%;
+        top: -45%;
+        left: 1%;
+    }
+
+    /*blue*/
+    .second{
+        position: relative;
+        width: 85%;
+        margin-top: -14%;
+        left: 16%;
+    }
+
+    /*white*/
+    .first{
+        position: relative;
+        width: 88%;
+        margin-top: -13%;
+        left: 17%;
+    }
+
+    .customview1{
+        width: auto;
+        height: auto;
+        margin: 0%;
+    }
+}
+
+
+
+
+/*Iphone 8 (5.5) viewport(375 x 667)*/
+@media (max-width: 380px) {
+    .custombtn {
+        font-size: 12px !important;
+        padding: 8px !important;
+        text-transform: none !important;
+        margin: 0;
+        margin-top: -20px !important;
+    }
+
+    .customcople1 {
+        position: relative;
+        width: 180px;
+        left: 0px;
+        margin-bottom: 10px !important;
+    }
+
+    .customcople2 {
+        position: relative;
+        width: 120px;
+        left: 5px;
+        top: -11% !important;
+    }
+
+    .customcople3 {
+        position: relative;
+        width: 220px;
+        left: 0px;
+        margin-top: 10px !important;
+    }
+
+    .BannerTitle  {
+        position: relative;
+        font-size: 32px !important;
+        line-height : 40px !important;
+        padding-top: 10px;
+    }
+
+    .custombtnindex{
+        position: absolute;
+        top: 55% !important;
+        font-size: 80% !important;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 1% !important;
+        padding-right: 5% !important;
+    }
+
+
+    /*mac*/
+    .third{
+        position: relative;
+        width: 100%;
+        top: -45%;
+        left: 1%;
+    }
+
+    /*blue*/
+    .second{
+        position: relative;
+        width: 85%;
+        margin-top: -14%;
+        left: 16%;
+    }
+
+    /*white*/
+    .first{
+        position: relative;
+        width: 88%;
+        margin-top: -13%;
+        left: 17%;
+    }
+
+    .customview1{
+        width: auto;
+        height: auto;
+        margin: 0%;
+    }
+    
+}
+
+
+
+
+
+
+
+/*RESPONSIVE DE 1ER VIEW*/
+@media (max-width: 0) {
+    .custombtn {
+        font-size: 3vw !important;
+        padding: 0px !important;
+        text-transform: none !important;
+        margin: 0;
+        margin-top: -20px !important;
+    }
+
+    .customcople1 {
+        position: relative;
+        width: 170px;
+        left: 0px;
+        padding: 0;
+    }
+
+    .customcople2 {
+        position: relative;
+        width: 120px;
+        left: 5px;
+    }
+
+    .customcople3 {
+        position: relative;
+        width: 220px;
+        left: 0px;
+        margin-top: 10px !important;
+    }
+
+    /*mac*/
+    .third{
+        position: absolute;
+        width: 90%;
+        margin-top: 40px;
+        left: 12%;
+    }
+
+    /*blue*/
+    .second{
+        position: absolute;
+        width: 70%;
+        margin-top: -50px;
+        left: 130px;
+    }
+
+    /*white*/
+    .first{
+        position: absolute;
+        width: 70%;
+        margin-top: -40px;
+        left: 130px;
+    }
+
+    .BannerTitle  {
+        font-family: 'Open Sans' !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 42px !important;
+        line-height: 88px !important;
+        color: #FFFFFF !important;
+        line-height : 40px !important;
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .custombtnindex{
+        position: relative;
+        font-size: 14px !important;
+        top: 0 !important;
+        left: 0px !important;
+        z-index: 5;
+    }
+
+}

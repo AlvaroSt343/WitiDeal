@@ -1,4 +1,5 @@
 
+/*VISTA 1 --------------------------------------*/
 .custombtn{
     background: #FFFFFF !important;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
@@ -36,11 +37,6 @@
     padding-left: 25px !important;
     padding-right: 40px !important;
     text-transform: none !important;
-}
-
-.custombtnindex :hover{
-    background-color: #3F19F9 !important;
-    color: #FFFFFF !important;
 }
 
 .BannerTitle {
@@ -98,13 +94,13 @@
 
 
 
-
+/*VISTA 2 --------------------------------------*/
 .BannerTitle2{
     font-family: 'Open Sans' !important;
     font-style: normal !important;
     font-weight: 700 !important;
-    font-size: 62px !important;
-    line-height: 68px !important;
+    font-size: 460% !important;
+    line-height: 78px !important;
     color: #3F19F9;
 }
 
@@ -126,34 +122,35 @@
     color: #41B8F9;
 }
 
+.sign{
+    top: -25px; 
+    width: 42%;
+}
+
 .subwrite {
     position: absolute;
     background-color: #3F19F9; 
     width:18.5%;
     height: 1px;
     left: 3%;
-    top: 12%;
-    
+    top: 13%;
 }
 
 .btnlargo{
     position: absolute;
-    top: 52.5%;
+    top: 53.6%;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
     font-size: 27.4157px;
     color: #1E0E6F;
     background-color: none;
-    z-index: 2;
-    
 }
 
 .borderbtn{
     position: absolute;
     left: -58%;
     top: 120px;
-    z-index: 1;
 }
 
 .card1{
@@ -161,34 +158,37 @@
     border-color: #868686;
     background-color: #41B8F9;
     top: -200px;
-    left: 35%;
+    left: 25%;
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
     z-index: 3;
+    width: 65%;
 }
 
 .card2{
     position: absolute;
     border-color: #868686;
     background-color: #41B8F9;
-    top: -220px;
-    left: 38%;
+    top: -52%;
+    left: 32%;
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
     z-index: 2;
+    width: 65%;
 }
 
 .card3{
     position: absolute;
     border-color: #868686;
     background-color: #41B8F9;
-    top: -240px;
-    left: 42%;
+    top: -59%;
+    left: 39%;
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
     z-index: 1;
+    width: 65%;
 }
 
 .cardbtn{
     background: #32FFD2;
-    color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
     padding: 10px;
     padding-left: 60px;
     padding-right: 60px;
@@ -232,7 +232,7 @@
 
 
 
-
+/*VISTA 3 --------------------------------------*/
 .BannerTitle3{
     font-family: 'Open Sans';
     font-style: normal;
@@ -243,7 +243,14 @@
 
 /*view 3 esta estileado en index*/
 
-/*view 4*/
+
+
+
+
+
+
+
+/*VISTA 4 --------------------------------------*/
 .cardimg{
     position: relative;
     width: 10% !important;
@@ -251,8 +258,16 @@
 
 
 
-/*view 6*/
 
+/*VISTA 5 --------------------------------------*/
+/*vista 5 estileada en index*/
+
+
+
+
+
+
+/*VISTA 6 --------------------------------------*/
 .BannerTitle5{
     font-family: 'Open Sans';
     font-style: normal;
@@ -282,7 +297,11 @@
 }
 
 
-/*view7*/
+
+
+
+
+/*VISTA 7 --------------------------------------*/
 .megatitle{
     font-family: Open Sans;
     font-style: normal;
@@ -379,7 +398,7 @@
 
 
 
-/*seccion final slide*/
+/*VISTA 8 final --------------------------------------*/
 .BannerTitle8{
     font-family: 'Open Sans';
     font-style: normal;
@@ -457,166 +476,7 @@ body .no-padding{
 
 /*------------------------------------------------------------------------*/
 
-
-/*RESPONSIVE DE 1ER VIEW*/
-@media (max-width: 700px) {
-    .custombtn {
-        font-size: 12px !important;
-        padding: 8px !important;
-        text-transform: none !important;
-        margin: 0;
-        margin-top: -20px !important;
-    }
-
-    .customcople1 {
-        position: relative;
-        width: 180px;
-        left: 0px;
-        margin-bottom: 10px !important;
-    }
-
-    .customcople2 {
-        position: relative;
-        width: 120px;
-        left: 5px;
-    }
-
-    .customcople3 {
-        position: relative;
-        width: 220px;
-        left: 0px;
-        margin-top: 10px !important;
-    }
-
-    /*mac*/
-    .third{
-        position: absolute;
-        width: 90%;
-        margin-top: 40px;
-        left: 12%;
-    }
-
-    /*blue*/
-    .second{
-        position: absolute;
-        width: 70%;
-        margin-top: -50px;
-        left: 130px;
-    }
-
-    /*white*/
-    .first{
-        position: absolute;
-        width: 70%;
-        margin-top: -40px;
-        left: 130px;
-    }
-
-    .BannerTitle  {
-        font-family: 'Open Sans' !important;
-        font-style: normal !important;
-        font-weight: bold !important;
-        font-size: 42px !important;
-        line-height: 88px !important;
-        color: #FFFFFF !important;
-        line-height : 40px !important;
-        padding-top: 10px;
-        margin-bottom: 0px;
-    }
-
-    .custombtnindex{
-        position: absolute;
-        background: #FFFFFF !important;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
-        border-radius: 26.5px !important;
-        font-family: 'Open Sans' !important;
-        font-style: normal !important;
-        font-weight: bold !important;
-        font-size: 14px !important;
-        color: #3F19F9 !important;
-        padding: 5px !important;
-        padding-left: 5px !important;
-        padding-right: 23px !important;
-        text-transform: none !important;
-        margin-top: 120px;
-    }
-}
-
-/*RESPONSIVE DE 1ER VIEW*/
-@media (max-width: 384px) {
-    .custombtn {
-        font-size: 3vw !important;
-        padding: 0px !important;
-        text-transform: none !important;
-        margin: 0;
-        margin-top: -20px !important;
-    }
-
-    .customcople1 {
-        position: relative;
-        width: 170px;
-        left: 0px;
-        padding: 0;
-    }
-
-    .customcople2 {
-        position: relative;
-        width: 120px;
-        left: 5px;
-    }
-
-    .customcople3 {
-        position: relative;
-        width: 220px;
-        left: 0px;
-        margin-top: 10px !important;
-    }
-
-    /*mac*/
-    .third{
-        position: absolute;
-        width: 90%;
-        margin-top: 40px;
-        left: 12%;
-    }
-
-    /*blue*/
-    .second{
-        position: absolute;
-        width: 70%;
-        margin-top: -50px;
-        left: 130px;
-    }
-
-    /*white*/
-    .first{
-        position: absolute;
-        width: 70%;
-        margin-top: -40px;
-        left: 130px;
-    }
-
-    .BannerTitle  {
-        font-family: 'Open Sans' !important;
-        font-style: normal !important;
-        font-weight: bold !important;
-        font-size: 42px !important;
-        line-height: 88px !important;
-        color: #FFFFFF !important;
-        line-height : 40px !important;
-        padding-top: 10px;
-        margin-bottom: 0px;
-    }
-
-    .custombtnindex{
-        position: relative;
-        font-size: 14px !important;
-        top: 0 !important;
-        left: 0px !important;
-        z-index: 5;
-    }
-}
-
+/*responsive general ajustes*/
 @media (max-width: 800px){
     .custombtnindex{
         position: relative;
@@ -626,202 +486,16 @@ body .no-padding{
         z-index: 5;
     }
 
+    .custombtn{
+        z-index: 5;
+    }
+
+    .triangulo-1
+    .triangulo-2
+    .triangulo-3
+    {
+        display: none !important;
+    }
+
 }
 
-
-/*RESPONSIVE DE 2DO VIEW*/
-@media (max-width: 700px) {
-    .BannerTitle2  {
-        font-family: 'Open Sans' !important;
-        font-style: normal !important;
-        font-weight: bold !important;
-        font-size: 42px !important;
-        line-height: 88px !important;
-        color: #3F19F9;
-        line-height : 55px !important;
-        text-align: center;
-        margin-top: -80px;
-    }
-
-    .subwrite{
-        top: 20px;
-        left: 40%;
-    }
-    
-    .parrafo1{
-        text-align: center;
-        width: auto;
-    }
-
-    .gratis {
-        position: relative;
-        font-size: 40px;
-        left: 30%;
-        top: -25px;
-    }
-
-    .card1{
-        position: absolute;
-        width: 40%;
-        height: 60%;
-        top: -160%;
-        left: 110px;
-    }
-
-    .card2{
-        position: absolute;
-        width: 40%;
-        height: 60%;
-        top: -162%;
-        left: 120px;
-    }
-
-    .card3{
-        position: absolute;
-        width: 40%;
-        height: 60%;
-        top: -164%;
-        left: 130px;
-    }
-
-    .cardbtn{
-        position: relative;
-        font-size: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        top: 20px;
-    }
-
-    .btnlargo{
-        font-size: 18px;
-        top: 57.5%;
-    }
-
-    .borderbtn{
-        position: absolute;
-        top: 230px;
-        left: -500px;
-        
-    }
-
-    
-}
-
-@media (max-width: 384) {
-    .BannerTitle2  {
-        font-family: 'Open Sans' !important;
-        font-style: normal !important;
-        font-weight: bold !important;
-        font-size: 32px !important;
-        line-height: 88px !important;
-        color: #3F19F9;
-        line-height : 55px !important;
-        text-align: center;
-    }
-
-    .subwrite{
-        top: 20px;
-        left: 40%;
-    }
-    
-    .parrafo1{
-        text-align: center;
-        width: auto;
-    }
-
-    .gratis {
-        position: relative;
-        font-size: 40px;
-        left: 30%;
-        top: -25px;
-    }
-
-    .card1{
-        position: absolute;
-        width: 40%;
-        height: 60%;
-        top: -160%;
-        left: 110px;
-    }
-
-    .card2{
-        position: absolute;
-        width: 40%;
-        height: 60%;
-        top: -162%;
-        left: 120px;
-    }
-
-    .card3{
-        position: absolute;
-        width: 40%;
-        height: 60%;
-        top: -164%;
-        left: 130px;
-    }
-
-    .cardbtn{
-        position: relative;
-        font-size: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        top: 20px;
-    }
-
-    .btnlargo{
-        font-size: 18px;
-        top: 57.5%;
-    }
-
-    .borderbtn{
-        position: absolute;
-        top: 230px;
-        left: -500px;
-        
-    }
-
-    
-}
-
-
-/*RESPONSIVE DE 3r VIEW*/
-@media (max-width: 700px) {
-    .viewstyle{
-        border-radius: 0px 118px !important;
-    }
-
-    .BannerTitle3{
-        position: relative;
-        top: -70px;
-        font-size: 35px !important;
-        left: 20%;
-    }
-
-    .subview3{
-        position: relative;
-        top: -80px;
-        font-size: 12px !important;
-        left: 13%;
-    }
-
-    .listview3{
-        position: relative;
-        top: -120px;
-        font-size: 20px !important;
-        left: 60px;
-    }
-
-    .custombtnindex{
-        position: relative;
-        top: -150px;
-        left: 13%;
-    }
-
-    .imgtech{
-        position: relative;
-        width: 5% !important;
-        left: -30%;
-        top: -200px;
-    }
-    
-}
