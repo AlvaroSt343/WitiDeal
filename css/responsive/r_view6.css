@@ -1,0 +1,19 @@
+/*RESPONSIVE DE 5to VIEW*/
+/*Iphone 11 (6.1) viewport(414 x 896)*/
+@media (max-width: 420px) {
+    .BannerTitle5{
+        position: absolute;
+        top: -250% !important;
+        font-size: 170% !important;
+    }
+
+    .textbanner{
+        font-size: 200% !important;
+    }
+}
+
+
+/*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
+@media (max-width: 380px) {
+
+}

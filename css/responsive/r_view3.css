@@ -1,11 +1,6 @@
-/*RESPONSIVE DE 3r VIEW*/
-@media (max-width: 1200px) {
-    .viewstyle{
-        border-radius: 0px 118px !important;
-    }
-}
-
-@media (max-width: 700px) {
+/*RESPONSIVE DE 3er VIEW*/
+/*Iphone 11 (6.1) viewport(414 x 896)*/
+@media (max-width: 420px) {
     .viewstyle{
         border-radius: 0px 118px !important;
     }
@@ -34,10 +29,15 @@
         left: 60px;
     }
 
-    .custombtnindex{
-        position: relative;
-        top: -150px;
-        left: 13%;
+    .custombtnindex3{
+        position: absolute;
+        text-align: center;
+        font-size: 18px !important;
+        padding: 5px 30px 5px 30px !important;
+        top: 60% !important;
+        left: 15%;
+        z-index: 2;
+        
     }
 
     .imgtech{
@@ -46,5 +46,56 @@
         left: -30%;
         top: -200px;
     }
-    
+
 }
+
+/*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
+@media (max-width: 380px) {
+    .viewstyle{
+        border-radius: 0px 118px !important;
+    }
+
+    .viewstyle-custombtnindex{
+        left: -50%;
+    }
+    .BannerTitle3{
+        position: relative;
+        top: -70px;
+        font-size: 35px !important;
+        left: 20%;
+    }
+
+    .subview3{
+        position: relative;
+        top: -80px;
+        font-size: 12px !important;
+        left: 13%;
+    }
+
+    .listview3{
+        position: relative;
+        top: -120px;
+        font-size: 20px !important;
+        left: 60px;
+    }
+
+    .custombtnindex3{
+        position: absolute;
+        text-align: center;
+        font-size: 18px !important;
+        padding: 5px 30px 5px 30px !important;
+        top: 60% !important;
+        left: 15%;
+        z-index: 2;
+        
+    }
+
+    .imgtech{
+        position: relative;
+        width: 5% !important;
+        left: -30%;
+        top: -200px;
+    }
+
+}
+    
