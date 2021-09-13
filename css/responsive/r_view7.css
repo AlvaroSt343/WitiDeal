@@ -1,0 +1,84 @@
+/*RESPONSIVE DE 5to VIEW*/
+/*Iphone 11 (6.1) viewport(414 x 896)*/
+@media (max-width: 420px) {
+    .BannerTitle7{
+        font-size: 5.5vh !important;
+        line-height: 4vh !important;
+    }
+
+    .megatitle{
+        font-size: 4vh !important;
+        margin-left: 2vw;
+        margin-right: 2vh;
+    }
+
+    .cardsd1{
+        position: relative;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+    }
+    .imgcardback1{
+        left: 4.8vw;
+    }
+
+    .cardcustom1{
+        height: 50vh;
+    }
+
+
+
+    .cardsd2{
+        position: relative;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+    }
+    .imgcardback2{
+        left: 4.8vw;
+    }
+
+    .cardcustom2{
+        height: 63vh;
+    }
+
+
+
+    .card3unique{
+        top: 60vh;
+    }
+
+    .cardsd3{
+        position: relative;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+    }
+    .imgcardback3{
+        left: 4.8vw;
+    }
+
+    .cardcustom3{
+        height: 75vh;
+    }
+
+    .BannerTitle8{
+        position: relative;
+        top: 60vh;
+        font-size: 10vw !important;
+    }
+
+    .sliderback{
+        top: 60vh;
+    }
+
+
+
+}
+
+
+/*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
+@media (max-width: 380px) {
+    
+
+}

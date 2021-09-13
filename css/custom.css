@@ -292,7 +292,13 @@ html, body{
 
 /*VISTA 5 --------------------------------------*/
 /*vista 5 estileada en index*/
+.brandsstyle{
+    display: flex;
+}
 
+.brandsstylemobile{
+    display: none;
+}
 
 
 
@@ -333,6 +339,15 @@ html, body{
 
 
 /*VISTA 7 --------------------------------------*/
+.BannerTitle7{
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 460% !important;
+    line-height: 78px !important;
+    color: #3F19F9;
+}
+
 .megatitle{
     font-family: Open Sans;
     font-style: normal;
