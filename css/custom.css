@@ -287,6 +287,26 @@ html, body{
     font-weight: 600;
 }
 
+.textcards{
+    font-size: 18px;
+    color: #515151;
+    line-height: 2.3vh;
+}
+
+.txtmod{
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+.txtmod3{
+    margin-bottom: 1.2vh;
+}
+
+.txtmod4{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
 
 
 
