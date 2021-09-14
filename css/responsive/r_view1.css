@@ -73,6 +73,83 @@
   
 }
 
+
+
+
+
+
+@media (max-height: 900px) {
+  /*mac*/
+  .third {
+    margin-top: 16vh;
+  }
+
+  /*blue*/
+  .second {
+    margin-top: 4vh;
+  }
+
+  /*white*/
+  .first {
+    margin-top: 4vh;
+  }
+
+  .BannerTitle {
+    position: relative;
+    font-size: 5vh !important;
+    line-height: 6vh !important;
+    top: auto;
+  }
+
+  .custombtnindex {
+    top: 26vh !important;
+  }
+
+
+}
+
+@media (max-height: 820px) {
+  /*mac*/
+  .third {
+    margin-top: 0vh;
+  }
+  
+}
+
+@media (max-height: 740px) {
+  /*mac*/
+  .third {
+    margin-top: 1vh;
+  }
+  
+  /*blue*/
+  .second {
+    margin-top: -6vh;
+  }
+
+  /*white*/
+  .first {
+    margin-top: -6vh;
+  }
+
+  .custombtnindex {
+    top: 20vh !important;
+  }
+}
+
+@media (max-height: 670px) {
+  /*mac*/
+  .third {
+    margin-top: 0vh;
+    
+  }
+
+}
+
+
+
+
+
 /*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
 @media (max-width: 380px) {
   .custombtn {

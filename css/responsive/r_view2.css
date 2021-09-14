@@ -93,6 +93,156 @@
     
 }
 
+
+
+
+
+
+
+
+
+@media (max-height: 900px) {
+    .gratis{
+        font-size: 6.5vh;
+        left: 20vw;
+        top: -4vh;
+    }
+    .card1{
+        width: 50%;
+        height: 70%;
+        left: 22vw;
+    }
+    .card2{
+        width: 50%;
+        height: 70%;
+        left: 24.5vw;
+    }
+    .card3{
+        width: 50%;
+        height: 70%;
+        left: 26.5vw;
+    }
+    .card-title{
+        left: 9vw !important;
+        font-size: 3.5vh !important;
+        top: 23vh;
+    }
+    .card-text{
+        top: 27vh !important;
+        left: 14vw;
+    }
+    .cardbtn{
+        left: 10vw;
+        top: 29.5vh;
+    }
+    .btnlargo{
+        top: 70vh;
+    }
+    .borderbtn{
+        top: 67.5vh;
+    }
+}
+  
+@media (max-height: 810px) {
+    .gratis{
+        font-size: 6.5vh;
+        left: 20vw;
+        top: -4vh;
+    }
+    .card1{
+        width: 50%;
+        height: 70%;
+        left: 22vw;
+    }
+    .card2{
+        width: 50%;
+        height: 70%;
+        left: 24.5vw;
+    }
+    .card3{
+        width: 50%;
+        height: 70%;
+        left: 26.5vw;
+    }
+    .card-title{
+        left: 9vw !important;
+        font-size: 3.5vh !important;
+        top: 23vh;
+    }
+    .card-text{
+        top: 27vh !important;
+        left: 14vw;
+    }
+    .cardbtn{
+        left: 10vw;
+        top: 29.5vh;
+    }
+    .btnlargo{
+        top: 70vh;
+    }
+    .borderbtn{
+        top: 67.5vh;
+    }
+}
+
+@media (max-height: 740px) {
+    .gratis{
+        font-size: 6.5vh;
+        left: 25vw;
+        top: -4vh;
+    }
+    .card1{
+        width: 45%;
+        height: 65%;
+        left: 25vw;
+    }
+    .card2{
+        width: 45%;
+        height: 65%;
+        left: 28vw;
+    }
+    .card3{
+        width: 45%;
+        height: 65%;
+        left: 30vw;
+    }
+    .card-title{
+        left: 9vw !important;
+        font-size: 3.5vh !important;
+        top: 25vh;
+    }
+    .card-text{
+        top: 29vh !important;
+        left: 11vw;
+    }
+    .cardbtn{
+        left: 8vw;
+        top: 33.5vh;
+    }
+    .btnlargo{
+        top: 72vh;
+    }
+    .borderbtn{
+        top: 69vh;
+    }
+}
+
+@media (max-height: 670px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
 @media (max-width: 380px) {
 
@@ -184,6 +334,17 @@
         top: 55%;
         
     }
+
+
+
+/*dispositivos mas pequeños Iphone 5/4 viewpoert(320 - XXX)*/
+@media (max-width: 380px) {
+
+}
+
+
+
+
 
     
 }

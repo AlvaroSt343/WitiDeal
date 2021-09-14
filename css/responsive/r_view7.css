@@ -77,6 +77,63 @@
 }
 
 
+
+
+
+
+@media (max-height: 900px) {
+   
+}
+  
+@media (max-height: 810px) {
+    .cardcustom1{
+        height: 60vh;
+    }
+    .cardcustom2{
+        height: 75vh;
+    }
+    .cardcustom3{
+        height: 100vh;
+    }
+
+    .card3unique{
+        top: 65vh;
+    }
+
+    .imgcardback1{
+        margin-top: 2.5vh;
+        left: 5.5vw;
+    }
+
+    .imgcardback2{
+        margin-top: -3.8vh;
+        left: 5.5vw;
+    }
+
+    .imgcardback3{
+        margin-top: -6.3vh;
+        left: 5.5vw;
+    }
+
+}
+
+@media (max-height: 740px) {
+
+}
+
+@media (max-height: 670px) {
+
+}
+
+
+
+
+
+
+
+
+
+
 /*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
 @media (max-width: 380px) {
     
