@@ -1,7 +1,7 @@
 /*RESPONSIVE DE 5to VIEW*/
 /*Iphone 11 (6.1) viewport(414 x 896)*/
 
-@media (max-width: 420px) {
+@media (max-width: 420px) , screen and (max-height: 900px) {
     .BannerTitle7{
         font-size: 5.5vh !important;
         line-height: 4vh !important;
@@ -13,6 +13,7 @@
         margin-right: 2vh;
     }
 
+
     .cardsd1{
         position: relative;
         margin-left: 5vw;
@@ -23,11 +24,12 @@
     .imgcardback1{
         left: 4.8vw;
     }
-
     .cardcustom1{
         height: 50vh;
     }
-
+    .btncontrata1{
+        top: -25vh;
+    }
 
 
     .cardsd2{
@@ -40,9 +42,11 @@
     .imgcardback2{
         left: 4.8vw;
     }
-
     .cardcustom2{
         height: 63vh;
+    }
+    .btncontrata2{
+        top: -25vh;
     }
 
 
@@ -61,10 +65,14 @@
     .imgcardback3{
         left: 4.8vw;
     }
-
     .cardcustom3{
         height: 75vh;
     }
+    .btncontrata3{
+        top: -20vh;
+    }
+
+
 
     .BannerTitle8{
         position: relative;
@@ -82,199 +90,6 @@
 
 
 
-
-
-/*
-@media (max-height: 900px) {
-    .imgcardback1{
-        margin-top: 5.8vh;
-    }
-    .imgcardback2{
-        margin-top: 5.8vh;
-    }
-    .imgcardback3{
-        margin-top: 6.3vh;
-    }
-}
-  
-@media (max-height: 810px) {
-    .cardcustom1{
-        height: 40vh ;
-    }
-    .cardcustom2{
-        height: 75vh;
-    }
-    .cardcustom3{
-        height: 100vh;
-    }
-
-    .card3unique{
-        top: 65vh;
-    }
-
-    .imgcardback1{
-        margin-top: 2.5vh;
-        left: 5.5vw;
-    }
-
-    .imgcardback2{
-        margin-top: -3.8vh;
-        left: 5.5vw;
-    }
-
-    .imgcardback3{
-        margin-top: -6.3vh;
-        left: 5.5vw;
-    }
-
-}
-
-@media (max-height: 740px) {
-    .cardcustom3{
-        height: 90vh;
-    }
-
-    .imgcardback1{
-        margin-top: 7.5vh;
-    }
-    .imgcardback2{
-        margin-top: 7.5vh;
-    }
-    .imgcardback3{
-        margin-top: 8vh;
-    }
-}
-/*
-@media (max-height: 670px) {
-    .cardcustom1{
-        height: 68vh ;
-    }
-    .cardcustom2{
-        height: 78vh ;
-    }
-    .cardcustom3{
-        height: 100vh ;
-    }
-    .card3unique{
-        top: 70vh ;
-    }
-}
-/*
-@media (max-height: 640px) {
-    .cardcustom1{
-        height: 68vh ;
-    }
-    .cardcustom2{
-        height: 68vh ;
-    }
-    .cardcustom3{
-        height: 95vh ;
-    }
-    .card3unique{
-        top: 70vh ;
-    }
-}
-/*
-@media (max-height: 600px) {
-    .cardcustom1{
-        height: 68vh ;
-    }
-    .cardcustom2{
-        height: 88vh ;
-    }
-    .cardcustom3{
-        height: 105vh ;
-    }
-    .card3unique{
-        top: 79vh ;
-    }
-    .BannerTitle8{
-        margin-top: 12vh;
-    }
-    
-}*/
-
-
-
-/*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
-/*
-@media (max-width: 380px) {
-    .BannerTitle7{
-        font-size: 5.5vh ;
-        line-height: 4vh ;
-    }
-
-    .megatitle{
-        font-size: 4vh ;
-        margin-left: 2vw;
-        margin-right: 2vh;
-    }
-
-    .cardsd1{
-        position: relative;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        margin-bottom: 5vh;
-    }
-    .imgcardback1{
-        margin-top: 6.35vh;
-        left: 4.8vw;
-    }
-
-    .cardcustom1{
-        height: 50vh;
-    }
-
-
-
-    .cardsd2{
-        position: relative;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        margin-bottom: 5vh;
-    }
-    .imgcardback2{
-        margin-top: 6.2vh;
-        left: 4.8vw;
-    }
-
-    .cardcustom2{
-        height: 65vh;
-    }
-
-
-
-    .card3unique{
-        top: 60vh;
-    }
-
-    .cardsd3{
-        position: relative;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        margin-bottom: 5vh;
-    }
-    .imgcardback3{
-        margin-top: 7vh;
-        left: 4.8vw;
-    }
-
-    .cardcustom3{
-        height: 80vh;
-    }
-
-    .BannerTitle8{
-        position: relative;
-        top: 60vh;
-        font-size: 10vw ;
-    }
-
-    .sliderback{
-        top: 60vh;
-    }
-
-}*/
-
 @media screen and (max-width: 390px) , screen and (max-height: 900px) {
     .cardsd1{
         margin-left: 5vw;
@@ -287,22 +102,26 @@
         left: 6vw;
     }
     .cardcustom1{
-        height: 50vh ;
+        height: 62vh ;
     }
-
+    .btncontrata1{
+        top: -25.5vh;
+    }
 
     .imgcardback2{
         margin-top: 6vh;
         left: 6vw;
     }
     .cardcustom2{
-        height: 65h ;
+        height: 80vh ;
+    }
+    .btncontrata2{
+        top: -21vh;
     }
 
 
-
     .card3unique{
-        top: 60vh ;
+        top: 75vh ;
     }
 
     
@@ -311,7 +130,10 @@
         left: 6vw;
     }
     .cardcustom3{
-        height: 82vh ;
+        height: 98vh ;
+    }
+    .btncontrata3{
+        top: -18vh;
     }
 
 
@@ -339,7 +161,7 @@
         left: 6vw;
     }
     .cardcustom1{
-        height: 60vh;
+        height: 70vh;
     }
 
 

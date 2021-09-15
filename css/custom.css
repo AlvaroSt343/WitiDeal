@@ -462,6 +462,47 @@ html, body{
     z-index: 3;
 }
 
+.btncontrata1{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 10px 38px 10px 38px ;
+    border-radius: 26.5px;
+    font-weight: bold;
+    font-size: 22.3158px;
+    line-height: 30px;
+    color: #3F19F9;
+    top: 7.5vh;
+}
+
+.btncontrata2{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 10px 38px 10px 38px ;
+    border-radius: 26.5px;
+    font-weight: bold;
+    font-size: 22.3158px;
+    line-height: 30px;
+    color: #3F19F9;
+    top: -5vh;
+}
+.btncontrata3{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 10px 38px 10px 38px ;
+    border-radius: 26.5px;
+    font-weight: bold;
+    font-size: 22.3158px;
+    line-height: 30px;
+    color: #3F19F9;
+    top: -17vh;
+}
+
 
 
 /*VISTA 8 final --------------------------------------*/
@@ -481,61 +522,6 @@ html, body{
 
 
 /* --- --- CAROUSEL --- --- */
-.col-md-3{
-    display: inline-block;
-    margin-left:-4px;
-}
-
-.col-md-3 img{
-    width:100%;
-    height:auto;
-}
-
-body .carousel-indicators li{
-    background-color:blue;
-}
-
-body .carousel-indicators{
-    bottom: -80px;
-}
-
-body .carousel-control-prev-icon,
-body .carousel-control-next-icon{
-    background-color:blue;
-}
-
-body .no-padding{
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

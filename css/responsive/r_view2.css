@@ -360,3 +360,91 @@
     
 }
 
+@media (max-width: 320px) {
+
+    .BannerTitle2  {
+        font-size: 130% !important;
+    }
+
+    .subwrite{
+        display: none;
+    }
+    
+    .parrafo1{
+        position: relative;
+        font-size: 4vw;
+        top: -5vh !important;
+    }
+
+    .gratis {
+        position: relative;
+        font-size: 10vw;
+        left: 30%;
+        top: -13vh;
+    }
+
+    .sign{
+        top: -16vh !important;
+        left: 30%;
+    }
+
+    .card1{
+        position: absolute;
+        width: 48%;
+        height: 55%;
+        top: -150%;
+        left: 80px;
+    }
+
+    .card2{
+        position: absolute;
+        width: 48%;
+        height: 55%;
+        top: -152%;
+        left: 90px;
+    }
+
+    .card3{
+        position: absolute;
+        width: 48%;
+        height: 55%;
+        top: -154%;
+        left: 100px;
+    }
+
+    .card-title{
+        font-size: 130% !important;
+        top: 60%;
+        left: 20% !important; 
+    }
+
+    .card-text{
+        font-size: 70% !important;
+        top: 70% !important;
+        left: 15%;
+    }
+
+    .cardbtn{
+        position: absolute;
+        font-size: 70%;
+        margin: 0%;
+        padding: 5%;
+        left: 8%;
+        top: 80%;
+        color: white;
+    }
+
+    .btnlargo{
+        font-size: 18px;
+        top: 58%;
+    }
+
+    .borderbtn{
+        position: absolute;
+        width: 20% !important;
+        left: -133%;
+        top: 55%;
+        
+    }
+    
+}
