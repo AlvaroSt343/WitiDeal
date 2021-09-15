@@ -227,8 +227,31 @@
     }
 }
 
-@media (max-height: 670px) {
+@media (max-height: 620px) {
+    .gratis {
+        font-size: 9vw !important;
+        left: 33% !important;
+        top: -40px;
+    }
 
+    .card1{
+        height: 50% !important;
+    }
+
+    .card2{
+        height: 50% !important;
+    }
+
+    .card3{
+        height: 50% !important;
+    }
+
+    .btnlargo{
+        top: 68vh !important;
+    }
+    .borderbtn{
+        top: 64vh !important;
+    }
 }
 
 
@@ -334,17 +357,6 @@
         top: 55%;
         
     }
-
-
-
-/*dispositivos mas pequeños Iphone 5/4 viewpoert(320 - XXX)*/
-@media (max-width: 380px) {
-
-}
-
-
-
-
-
     
 }
+

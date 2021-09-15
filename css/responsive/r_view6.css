@@ -1,4 +1,11 @@
 /*RESPONSIVE DE 5to VIEW*/
+
+@media (max-width: 700px) {
+    .brandsstyle{
+        display: none !important;
+    }
+}
+
 /*Iphone 11 (6.1) viewport(414 x 896)*/
 @media (max-width: 420px) {
     .viewstyle6{
@@ -13,23 +20,22 @@
 
 
     .textbanner{
-        font-size: 2vh !important;
-        top: -6vh;
+        font-size: 2vh;
+        top: -8vh;
     }
 
     .imgradio{
-        width: 100%;
+        width: 150%;
+        height: 10vh !important;
         top: 0vh;
     }
 
     .bannerbajo{
         position: relative;
-        height: 6vh;
-        top: -1%;
+        height: 10vh;
+        top: -0vh !important;
     }
     
-
-
 
     .brandsstyle{
         display: none;
@@ -48,10 +54,17 @@
         margin-bottom: 20%;
     }
 
-    .viewstyle6{
+}
 
+
+@media (max-height: 620px) {
+    .bannerbajo{
+        top: 0vh !important;
+        height: 8vh !important;
     }
-
+    .textbanner{
+        font-size: 2vh !important;
+    }
 }
 
 
@@ -69,19 +82,20 @@
 
 
     .textbanner{
-        font-size: 2vh !important;
-        top: -6vh;
+        font-size: 2vh;
+        top: -8vh;
     }
 
     .imgradio{
-        width: 100%;
+        width: 150%;
+        height: 10vh !important;
         top: 0vh;
     }
 
     .bannerbajo{
         position: relative;
-        height: 6vh;
-        top: -1%;
+        height: 10vh;
+        top: -0vh !important;
     }
     
 

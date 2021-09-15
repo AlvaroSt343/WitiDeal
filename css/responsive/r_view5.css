@@ -49,7 +49,33 @@
 }
 
 
+
+
 /*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
 @media (max-width: 380px) {
+    .crd1 img{
+        width: 65%;
+    }
+    .crd1 img{
+        width: 65%;
+    }
+    .crd2 img{
+        width: 65%;
+    }
+    .crd3 img{
+        width: 65%;
+    }
+    .crd4 img{
+        width: 65%;
+    }
+    .crd5 img{
+        width: 65%;
+    }
+    .crd6 img{
+        width: 65%;
+    }
 
+    .textcards{
+        font-size: 2.5vh;
+    }
 }

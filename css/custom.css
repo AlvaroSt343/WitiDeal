@@ -154,7 +154,7 @@ html, body{
     width:18.5%;
     height: 1px;
     left: 3%;
-    top: 13%;
+    top: 15vh;
 }
 
 .btnlargo{
@@ -171,7 +171,7 @@ html, body{
 .borderbtn{
     position: absolute;
     left: -58%;
-    top: 120px;
+    top: 54vh;
 }
 
 .card1{
