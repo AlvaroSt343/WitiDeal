@@ -1,0 +1,553 @@
+html, body{
+    overflow-x: hidden;
+}
+
+
+
+/*VISTA 1 --------------------------------------*/
+.custombtn{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
+    border-radius: 19px !important;
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 19px !important;
+    line-height: 22px !important;
+    color: #3F19F9 !important;
+    padding: 10px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    text-transform: none !important;
+    margin: 0;
+    z-index: 4;
+}
+
+.custombtn :hover{
+    background-color: #3F19F9 !important;
+    color: #FFFFFF !important;
+}
+
+.custombtnindex{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
+    border-radius: 26.5px !important;
+    font-family: Open Sans !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 26px !important;
+    line-height: 22px !important;
+    color: #3F19F9 !important;
+    padding: 15px !important;
+    padding-left: 25px !important;
+    padding-right: 40px !important;
+    text-transform: none !important;
+}
+
+.custombtnindex3{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13) !important;
+    border-radius: 26.5px !important;
+    font-family: Open Sans !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 26px !important;
+    line-height: 22px !important;
+    color: #3F19F9 !important;
+    padding: 15px !important;
+    padding-left: 25px !important;
+    padding-right: 40px !important;
+    text-transform: none !important;
+}
+
+.BannerTitle {
+    font-family: 'Open Sans', 'sans serif';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+.first{
+    position: absolute;
+    left: 30%;
+    top: -40px;
+    z-index: 1 !important;
+    width: 100%;
+}
+.second{
+    position: absolute !important;
+    left: 27%;
+    top: -46px;
+    z-index: 2 !important;
+    width: 100%;
+}
+.third{
+    position: absolute !important;
+    left: 1.5%;
+    top: -180px;
+    z-index: 3 !important;
+    width: 125%;
+}
+
+.triangulo-1 {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    
+}
+.triangulo-2 {
+    position: absolute;
+    z-index: 2;
+    top: 98.5%;
+    left: 100%;
+}
+.triangulo-3 {
+    position: absolute;
+    z-index: 3;
+    top: 95.5%;
+    left: 100%;
+}
+
+
+
+
+
+/*VISTA 2 --------------------------------------*/
+.BannerTitle2{
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 460% !important;
+    line-height: 78px !important;
+    color: #3F19F9;
+}
+
+.parrafo1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 107.68%;
+    color: #868686;
+    width: 345px;
+}
+
+.gratis{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 63.28px;
+    color: #41B8F9;
+}
+
+.sign{
+    top: -25px; 
+    width: 42%;
+}
+
+.subwrite {
+    position: absolute;
+    background-color: #3F19F9; 
+    width:18.5%;
+    height: 1px;
+    left: 3%;
+    top: 15vh;
+}
+
+.btnlargo{
+    position: absolute;
+    top: 53.6%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27.4157px;
+    color: #1E0E6F;
+    background-color: none;
+}
+
+.borderbtn{
+    position: absolute;
+    left: -58%;
+    top: 54vh;
+}
+
+.card1{
+    position: absolute;
+    border-color: #868686;
+    background-color: #41B8F9;
+    top: -200px;
+    left: 25%;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
+    z-index: 3;
+    width: 65%;
+}
+
+.card2{
+    position: absolute;
+    border-color: #868686;
+    background-color: #41B8F9;
+    top: -52%;
+    left: 32%;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
+    z-index: 2;
+    width: 65%;
+}
+
+.card3{
+    position: absolute;
+    border-color: #868686;
+    background-color: #41B8F9;
+    top: -59%;
+    left: 39%;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
+    z-index: 1;
+    width: 65%;
+}
+
+.cardbtn{
+    background: #32FFD2;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 13.4006px 6.2536px rgba(50, 255, 210, 0.25);
+    border-radius: 38.415px;
+}
+
+.izq-1{
+    position: relative;
+    top: -500px;
+    left: -55%;
+    z-index: 2;
+}
+
+.izq-2{
+    position: relative;
+    top: -500px;
+    left: -60%;
+    z-index: 1;
+}
+
+.der-1{
+    position: relative;
+    left: 136%;
+    top: 30px;
+    z-index: 1;
+    
+}
+
+.der-2{
+    position: relative;
+    left: 131%;
+    top: -350px;
+    z-index: 1
+    
+}
+
+
+
+
+
+
+/*VISTA 3 --------------------------------------*/
+.BannerTitle3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px !important;
+    color: #ffffff;
+}
+
+/*view 3 esta estileado en index*/
+
+
+
+
+
+
+
+
+/*VISTA 4 --------------------------------------*/
+.cardimg{
+    position: relative;
+    width: 10% !important;
+}
+
+.vertical{
+    display: none;
+}
+
+.subtitulo4{
+    color: grey; 
+    font-size: 250%; 
+    font-weight: 600;
+}
+
+.textcards{
+    font-size: 18px;
+    color: #515151;
+    line-height: 2.3vh;
+}
+
+.txtmod{
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+.txtmod3{
+    margin-bottom: 1.2vh;
+}
+
+.txtmod4{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+
+
+/*VISTA 5 --------------------------------------*/
+/*vista 5 estileada en index*/
+.brandsstyle{
+    display: flex;
+}
+
+.brandsstylemobile{
+    display: none;
+}
+
+
+
+
+
+/*VISTA 6 --------------------------------------*/
+.BannerTitle5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px !important;
+    color: #ffffff;
+}
+
+.brandsstyle{
+    margin-top: 10%;
+}
+
+.bannerbajo{
+    margin-top: 120px;
+    margin-bottom: 0%;
+    background: linear-gradient(180deg, #3F19F9 0%, #2C0CC5 100%);
+
+}
+
+.textbanner{
+    position: relative;
+    font-family: 'Open Sans';
+    font-size: 58px;
+    color: white;
+    font-weight: 600;
+    top: -210px;
+}
+
+
+
+
+
+
+/*VISTA 7 --------------------------------------*/
+.BannerTitle7{
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 460% !important;
+    line-height: 78px !important;
+    color: #3F19F9;
+}
+
+.megatitle{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 107.68%;
+    text-align: center;
+    color: #128DFE;
+    margin-bottom: 5%;
+}
+
+.cardcustom1{
+    background: linear-gradient(180deg, #41B8F9 26.72%, #32FFD2 126.06%) !important;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 19.6542px !important;
+    height: 670px;
+}
+
+.cardcustom2{
+    background: linear-gradient(180deg, #41B8F9 0%, #3F19F9 126.06%);
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border-radius: 19.6542px;
+    height: 670px;
+}
+
+.cardcustom3{
+    background: linear-gradient(180deg, #3F19F9 0%, #17056B 126.06%);
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border-radius: 19.6542px;
+    height: 670px;
+}
+
+
+.cardtitle{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cardsubtitle{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 139.18%;
+    color: white;
+}
+
+.precio{
+    font-size: 30px;
+    font-weight: 600;
+    color: #32FFD2;
+    margin-top: 10px;
+}
+
+.lista{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 139.18%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.imgcardback1{
+    position: relative;
+    top: -430px;
+    right: -25px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+.imgcardback2{
+    position: relative;
+    top: -545px;
+    right: -25px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+.imgcardback3{
+    position: relative;
+    top: -665px;
+    right: -25px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    z-index: 3;
+}
+
+.btncontrata1{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 10px 38px 10px 38px ;
+    border-radius: 26.5px;
+    font-weight: bold;
+    font-size: 22.3158px;
+    line-height: 30px;
+    color: #3F19F9;
+    top: 7.5vh;
+}
+
+.btncontrata2{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 10px 38px 10px 38px ;
+    border-radius: 26.5px;
+    font-weight: bold;
+    font-size: 22.3158px;
+    line-height: 30px;
+    color: #3F19F9;
+    top: -5vh;
+}
+.btncontrata3{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 10px 38px 10px 38px ;
+    border-radius: 26.5px;
+    font-weight: bold;
+    font-size: 22.3158px;
+    line-height: 30px;
+    color: #3F19F9;
+    top: -17vh;
+}
+
+
+
+/*VISTA 8 final --------------------------------------*/
+.BannerTitle8{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px !important;
+    color: #41B8F9;
+}
+
+
+
+
+
+
+
+
+/* --- --- CAROUSEL --- --- */
+
+
+
+
+/*------------------------------------------------------------------------*/
+
+/*responsive general ajustes*/
+@media (max-width: 800px){
+    .custombtnindex{
+        position: relative;
+        font-size: 14px !important;
+        top: 0 !important;
+        left: 0px !important;
+        z-index: 5;
+    }
+
+    .custombtn{
+        z-index: 5;
+    }
+
+    .triangulo-1
+    .triangulo-2
+    .triangulo-3
+    {
+        display: none !important;
+    }
+
+}
+

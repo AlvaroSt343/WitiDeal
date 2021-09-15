@@ -1,0 +1,122 @@
+/*RESPONSIVE DE 5to VIEW*/
+
+@media (max-width: 700px) {
+    .brandsstyle{
+        display: none !important;
+    }
+}
+
+/*Iphone 11 (6.1) viewport(414 x 896)*/
+@media (max-width: 420px) {
+    .viewstyle6{
+        height: auto;
+    }
+
+    .BannerTitle5{
+        position:relative;
+        top: -1vh;
+        font-size: 6vw !important;
+    }
+
+
+    .textbanner{
+        font-size: 2vh;
+        top: -8vh;
+    }
+
+    .imgradio{
+        width: 150%;
+        height: 10vh !important;
+        top: 0vh;
+    }
+
+    .bannerbajo{
+        position: relative;
+        height: 10vh;
+        top: -0vh !important;
+    }
+    
+
+    .brandsstyle{
+        display: none;
+    }
+
+    .brandsstylemobile{
+        display: flex;
+    }
+
+    .containerdp5{
+        margin-top: 18px !important;
+    }
+
+    .brand1{
+        width: 70%;
+        margin-bottom: 20%;
+    }
+
+}
+
+
+@media (max-height: 620px) {
+    .bannerbajo{
+        top: 0vh !important;
+        height: 8vh !important;
+    }
+    .textbanner{
+        font-size: 2vh !important;
+    }
+}
+
+
+/*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
+@media (max-width: 380px) {
+    .viewstyle6{
+        height: auto;
+    }
+
+    .BannerTitle5{
+        position:relative;
+        top: -1vh;
+        font-size: 6vw !important;
+    }
+
+
+    .textbanner{
+        font-size: 2vh;
+        top: -8vh;
+    }
+
+    .imgradio{
+        width: 150%;
+        height: 10vh !important;
+        top: 0vh;
+    }
+
+    .bannerbajo{
+        position: relative;
+        height: 10vh;
+        top: -0vh !important;
+    }
+    
+
+
+
+    .brandsstyle{
+        display: none;
+    }
+
+    .brandsstylemobile{
+        display: flex;
+    }
+
+    .containerdp5{
+        margin-top: 18px !important;
+    }
+
+    .brand1{
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+
+}

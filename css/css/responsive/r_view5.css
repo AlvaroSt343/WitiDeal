@@ -1,0 +1,111 @@
+/*RESPONSIVE DE 5to VIEW*/
+/*Iphone 11 (6.1) viewport(414 x 896)*/
+@media (max-width: 420px) {
+    .viewstyle5{
+        height: 200%;
+    }
+    
+    .carddisplay{
+        height: 150%;
+    }
+
+    .crd1{
+        position: absolute;
+        height: 8%;
+        top: 11%;
+        text-align: center;
+    }
+    
+    .crd2{
+        position: absolute;
+        top: 25%;
+        height: 8%;
+    }
+    .crd3{
+        position: absolute;
+        top: 39%;
+        height: 8%;
+    }
+    .crd4{
+        position: absolute;
+        top: 53%;
+        height: 8%;
+    }
+    .crd5{
+        position: absolute;
+        top: 67%;
+        height: 8%;
+    }
+    .crd6{
+        position: absolute;
+        top: 81%;
+        height: 8%;
+    }
+
+    .txtmod{
+        margin-top: 0vh;
+    }
+
+}
+
+
+
+
+/*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
+@media (max-width: 380px) {
+    .crd1 img{
+        width: 65%;
+    }
+    .crd1 img{
+        width: 65%;
+    }
+    .crd2 img{
+        width: 65%;
+    }
+    .crd3 img{
+        width: 65%;
+    }
+    .crd4 img{
+        width: 65%;
+    }
+    .crd5 img{
+        width: 65%;
+    }
+    .crd6 img{
+        width: 65%;
+    }
+
+    .textcards{
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-height: 480px) {
+    .crd1 img{
+        width: 55%;
+    }
+    .crd2 img{
+        width: 55%;
+    }
+    .crd3 img{
+        width: 55%;
+    }
+    .crd4 img{
+        width: 55%;
+    }
+    .crd5 img{
+        width: 55%;
+    }
+    .crd6 img{
+        width: 55%;
+    }
+
+    .textcards{
+        font-size: 2.5vh;
+        margin-bottom: 0vh;
+        margin-top: -2vh;
+    }
+    .txtmod4{
+        margin-top: 1.5px;
+    }
+}
