@@ -202,7 +202,7 @@
 }
 
 
-@media screen and (max-width: 360px) , screen and (max-height: 800px) {
+@media screen and (max-width: 360px) {
     .cardsd1{
         margin-left: 5vw;
         margin-right: 5vw;
@@ -254,6 +254,31 @@
 
 }
 
+@media  (max-height: 800px) {
+    .btncontrata1{
+        top: -10vh;
+    }
+    .btncontrata2{
+        top: -1vh;
+    }
+
+    .btncontrata3{
+        top: 8vh;
+    }
+}
+
+@media  (max-height: 740px) {
+    .btncontrata1{
+        top: -18vh;
+    }
+    .btncontrata2{
+        top: -16vh;
+    }
+
+    .btncontrata3{
+        top: -14vh;
+    }
+}
 
 @media screen and (max-width: 360px) , screen and (max-height: 650px) {
     .cardsd1{
@@ -308,8 +333,10 @@
 }
 
 
-@media screen and (max-width: 320px) , screen and (max-height: 600px) {
-    
+
+
+
+@media (max-height: 568px) {
     .cardcustom1{
         height: 85vh ;
     }
@@ -326,7 +353,10 @@
     .cardcustom2{
         height: 108vh ;
     }
-
+    .btncontrata2{
+        position: relative;
+        top: 10vw !important;
+    }
 
 
     .card3unique{
@@ -341,7 +371,9 @@
     .cardcustom3{
         height: 140vh ;
     }
-
+    .btncontrata3{
+        top: -1vh !important;
+    }
 
 
 
@@ -352,6 +384,57 @@
 
     .sliderback{
         top: 90vh;
+    }
+
+}
+
+
+@media (max-width: 320px){
+    .BannerTitle7{
+        font-size: 12vw !important;
+        line-height: 10vw !important;
+    }
+
+    
+    .btncontrata2{
+        top: -81vw !important;
+    }
+    .btncontrata3{
+        position: relative;
+        top: -78vw !important;
+    }
+
+
+
+    
+}
+
+@media (max-height: 480px) {
+    .btncontrata1{
+        top: -31vh;
+    }
+
+    .cardcustom2{
+        height: 194vw;
+    }
+    .btncontrata2{
+        top: -23vh !important;
+    }
+
+    .card3unique{
+        top: 108vh;
+    }
+
+    .cardcustom3{
+        height: 150vh;
+    }
+    .btncontrata3{
+        top: -10vh !important;
+    }
+
+
+    .BannerTitle8{
+        top: 110vh;
     }
 
 }

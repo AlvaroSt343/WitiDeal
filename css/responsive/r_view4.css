@@ -37,8 +37,6 @@
     }
 }
 
-
-
 /*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
 @media (max-width: 380px) {
     .viewstyle4{
@@ -61,6 +59,38 @@
         font-weight: 600;
         top: -280% !important;
         left: 20%;
+        text-align: center;
+    }
+}
+
+@media (max-height: 480px) {
+    .viewstyle4{
+        height: 210vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .viewstyle4{
+        height: 320vw !important;
+    }
+
+    .filafull{
+        display: none;
+    }
+
+    .vertical{
+        position: relative !important;
+        display: flex;
+        width: auto;
+        height: 280vw;
+    }
+
+    .subtitulo4{
+        position: absolute;
+        font-size: 110%; 
+        font-weight: 600;
+        top: -9vh !important;
+        left: 15vw;
         text-align: center;
     }
 }

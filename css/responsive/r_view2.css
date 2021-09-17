@@ -95,12 +95,6 @@
 
 
 
-
-
-
-
-
-
 @media (max-height: 900px) {
     .gratis{
         font-size: 6.5vh;
@@ -217,13 +211,13 @@
     }
     .cardbtn{
         left: 8vw;
-        top: 33.5vh;
+        top: 32vh;
     }
     .btnlargo{
-        top: 72vh;
+        top: 70vh;
     }
     .borderbtn{
-        top: 69vh;
+        top: 67vh;
     }
 }
 
@@ -253,15 +247,6 @@
         top: 64vh !important;
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -360,7 +345,54 @@
     
 }
 
+
+
+@media (max-height: 480px) {
+    .gratis {
+        font-size: 9vw !important;
+        left: 33% !important;
+        top: -60px;
+    }
+
+    .card1{
+        height: 48% !important;
+    }
+
+    .card2{
+        height: 48% !important;
+    }
+
+    .card3{
+        height: 48% !important;
+    }
+
+    .btnlargo{
+        top: 58vh !important;
+    }
+    .borderbtn{
+        top: 53vh !important;
+    }
+
+    .card-title{
+        top: 31vh;
+    }
+    .card-text{
+        top: 36vh !important;
+    }
+    .cardbtn{
+        top: 40vh;
+        left: 12vw !important;
+        font-size: 1.5vh;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+}
+
+
 @media (max-width: 320px) {
+    .viewstyle2{
+        height: 90vh;
+    }
 
     .BannerTitle2  {
         font-size: 130% !important;
@@ -391,7 +423,7 @@
     .card1{
         position: absolute;
         width: 48%;
-        height: 55%;
+        height: 56.5% !important;
         top: -150%;
         left: 80px;
     }
@@ -399,7 +431,7 @@
     .card2{
         position: absolute;
         width: 48%;
-        height: 55%;
+        height: 56.5% !important;
         top: -152%;
         left: 90px;
     }
@@ -407,7 +439,7 @@
     .card3{
         position: absolute;
         width: 48%;
-        height: 55%;
+        height: 56.5% !important;
         top: -154%;
         left: 100px;
     }
@@ -415,13 +447,13 @@
     .card-title{
         font-size: 130% !important;
         top: 60%;
-        left: 20% !important; 
+        left: 22% !important; 
     }
 
     .card-text{
         font-size: 70% !important;
         top: 70% !important;
-        left: 15%;
+        left: 19%;
     }
 
     .cardbtn{
@@ -429,21 +461,21 @@
         font-size: 70%;
         margin: 0%;
         padding: 5%;
-        left: 8%;
+        left: 12% !important;
         top: 80%;
         color: white;
     }
 
     .btnlargo{
         font-size: 18px;
-        top: 58%;
+        top: 55vh !important;
     }
 
     .borderbtn{
         position: absolute;
         width: 20% !important;
-        left: -133%;
-        top: 55%;
+        left: -153%;
+        top: 51vh !important;
         
     }
     

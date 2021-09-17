@@ -48,9 +48,6 @@
 
 }
 
-
-
-
 /*Iphone 6/7/8 (5.5) viewport(375 x 667)*/
 @media (max-width: 380px) {
     .crd1 img{
@@ -73,6 +70,72 @@
     }
     .crd6 img{
         width: 65%;
+    }
+
+    .textcards{
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-height: 480px) {
+    .crd1 img{
+        width: 55%;
+    }
+    .crd2 img{
+        width: 55%;
+    }
+    .crd3 img{
+        width: 55%;
+    }
+    .crd4 img{
+        width: 55%;
+    }
+    .crd5 img{
+        width: 55%;
+    }
+    .crd6 img{
+        width: 55%;
+    }
+
+    .textcards{
+        font-size: 2.5vh;
+        margin-bottom: 0vh;
+        margin-top: -2vh;
+    }
+    .txtmod4{
+        margin-top: 1.5px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .BannerTitle2{
+        line-height: 8vw !important;
+    }
+
+    .crd1 img{
+        width: 12vw !important;
+        height: 12vw !important;
+    }
+    .crd2 img{
+        width: 15vw !important;
+        height: 15vw !important;
+    }
+    .crd3 img{
+        width: 15vw !important;
+        height: 15vw !important;
+    }
+    .crd4 img{
+        width: 12vw !important;
+        height: 12vw !important;
+    }
+    .crd5 img{
+        width: 15vw !important;
+        height: 15vw !important;
+    }
+    .crd6 img{
+        width: 15vw !important;
+        height: 15vw !important;
     }
 
     .textcards{
