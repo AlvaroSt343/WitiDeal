@@ -1,4 +1,49 @@
 
+/*tablets*/
+@media (min-width: 1100px) {
+  .customcople2{
+    left: -8vw;
+  }  
+  .customcople3{
+      left: -15vw;
+    }
+}
+
+@media (max-width: 1024px) {
+  .BannerTitle{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 11vw;
+    line-height: 10vw;
+  }
+  .custombtnindex{
+  }
+
+  .first{
+    width: 60vw;
+    top: -10vw;
+    left: 36vw;
+    overflow: hidden;
+  }
+  .second{
+    width: 60vw;
+    top: -11vw;
+    left: 37vw;
+    overflow: hidden;
+  }
+  .third{
+    width: 75vw;
+    top: -19vw;
+    left: 23vw;
+    overflow: hidden;
+  }
+  .triangulo-1, .triangulo-2, .triangulo-3{
+    display: none;
+  }
+}
+
+
+
 /*Iphone 11 (6.1) viewport(414 x 896)*/
 @media (max-width: 420px) {
   .custombtn {
@@ -74,10 +119,6 @@
 }
 
 
-
-
-
-
 @media (max-height: 900px) {
   /*mac*/
   .third {
@@ -145,9 +186,6 @@
   }
 
 }
-
-
-
 
 
 /*Iphone 6/7/8 (5.5) viewport(375 x 667)*/

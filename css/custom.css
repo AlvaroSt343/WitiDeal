@@ -360,16 +360,18 @@ html, body{
 
 /*VISTA 7 --------------------------------------*/
 .BannerTitle7{
+    position: relative;
+    margin-top: 5vh;
     font-family: 'Open Sans' !important;
-    font-style: normal !important;
     font-weight: 700 !important;
-    font-size: 460% !important;
-    line-height: 78px !important;
+    font-size: 10vh !important;
+    line-height: 8vh !important;
     color: #3F19F9;
+    margin-bottom: 5vh;
 }
 
 .megatitle{
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
@@ -377,131 +379,88 @@ html, body{
     text-align: center;
     color: #128DFE;
     margin-bottom: 5%;
+    
 }
 
-.cardcustom1{
-    background: linear-gradient(180deg, #41B8F9 26.72%, #32FFD2 126.06%) !important;
-    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06) !important;
-    border-radius: 19.6542px !important;
-    height: 670px;
+.cardplanes{
+    width: 100%;
+    height: 89%;    
 }
 
-.cardcustom2{
+.backcard1{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #41B8F9 0%, #32FFD2 126.06%);
+    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
+    border-radius: 19.6542px;
+}
+.backcard2{
+    width: 100%;
+    height: 100%;
     background: linear-gradient(180deg, #41B8F9 0%, #3F19F9 126.06%);
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
     border-radius: 19.6542px;
-    height: 670px;
 }
-
-.cardcustom3{
+.backcard3{
+    width: 100%;
+    height: 100%;
     background: linear-gradient(180deg, #3F19F9 0%, #17056B 126.06%);
     box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
     border-radius: 19.6542px;
-    height: 670px;
 }
 
+.contenidocard{
+    padding: 3.5vh;
+}
 
-.cardtitle{
+.titulo{
     font-weight: bold;
-    font-size: 35px;
-    line-height: 49px;
-    text-align: center;
+    font-size: 3.8vh;
+    line-height: 139.18%;
     color: #FFFFFF;
 }
-
-.cardsubtitle{
+.subtitulo {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 2vh;
     line-height: 139.18%;
     color: white;
 }
-
 .precio{
-    font-size: 30px;
-    font-weight: 600;
-    color: #32FFD2;
-    margin-top: 10px;
-}
-
-.lista{
+    font-size: 3.6vh;
     font-weight: bold;
-    font-size: 24px;
+    color: #32FFD2;
+}
+.lista{
+    font: 'Open Sans';
+    font-weight: 500;
+    font-size: 2.8vh;
     line-height: 139.18%;
     color: white;
-    margin: 0;
-    padding: 0;
 }
 
-.imgcardback1{
+.btnplanes{
     position: relative;
-    top: -430px;
-    right: -25px;
-    text-align: right;
-    padding: 0;
-    margin: 0;
-    z-index: 3;
-}
-
-.imgcardback2{
-    position: relative;
-    top: -545px;
-    right: -25px;
-    text-align: right;
-    padding: 0;
-    margin: 0;
-    z-index: 3;
-}
-
-.imgcardback3{
-    position: relative;
-    top: -665px;
-    right: -25px;
-    text-align: right;
-    padding: 0;
-    margin: 0;
-    z-index: 3;
-}
-
-.btncontrata1{
-    position: relative;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
-    border: none;
-    padding: 10px 38px 10px 38px ;
-    border-radius: 26.5px;
-    font-weight: bold;
-    font-size: 22.3158px;
-    line-height: 30px;
+    top: -2.5vh;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 2.2vh;
     color: #3F19F9;
-    top: 7.5vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 29.3296px 14.6648px rgba(0, 0, 0, 0.082);
+    border: none;
+    border-radius: 43.5px;
+    padding: 1vh 5vh 1vh 5vh;
 }
 
-.btncontrata2{
-    position: relative;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
-    border: none;
-    padding: 10px 38px 10px 38px ;
-    border-radius: 26.5px;
-    font-weight: bold;
-    font-size: 22.3158px;
-    line-height: 30px;
-    color: #3F19F9;
-    top: -5vh;
+.imgcrd1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*transform: scaleX(-1);*/
 }
-.btncontrata3{
-    position: relative;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 17.8674px 8.93372px rgba(0, 0, 0, 0.06);
-    border: none;
-    padding: 10px 38px 10px 38px ;
-    border-radius: 26.5px;
-    font-weight: bold;
-    font-size: 22.3158px;
-    line-height: 30px;
-    color: #3F19F9;
-    top: -17vh;
-}
+
+
+
 
 
 
